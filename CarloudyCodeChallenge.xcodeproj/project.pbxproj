@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FB7AA31E6C6B9600BC7E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7AA21E6C6B9600BC7E21 /* AppDelegate.swift */; };
+		20FB7AA51E6C6B9600BC7E21 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7AA41E6C6B9600BC7E21 /* MapViewController.swift */; };
+		20FB7AA81E6C6B9600BC7E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB7AA61E6C6B9600BC7E21 /* Main.storyboard */; };
+		20FB7AAA1E6C6B9600BC7E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB7AA91E6C6B9600BC7E21 /* Assets.xcassets */; };
+		20FB7AAD1E6C6B9600BC7E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB7AAB1E6C6B9600BC7E21 /* LaunchScreen.storyboard */; };
+		20FB7AB81E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7AB71E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.swift */; };
+		20FB7AC41E6C7C9500BC7E21 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7AC21E6C7C9500BC7E21 /* NetworkService.swift */; };
+		20FB7AC51E6C7C9500BC7E21 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7AC31E6C7C9500BC7E21 /* NetworkServiceProtocol.swift */; };
+		3D50A7940F4875CEEF0F4EB7 /* Pods_CarloudyCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F75128F915AB02B41BECE0 /* Pods_CarloudyCodeChallenge.framework */; };
+		410DE4466548D6EE0DC708B6 /* Pods_CarloudyCodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856D2F8C809E405E3E2237B1 /* Pods_CarloudyCodeChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20FB7AB41E6C6B9600BC7E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FB7A971E6C6B9600BC7E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FB7A9E1E6C6B9600BC7E21;
+			remoteInfo = CarloudyCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FB7A9F1E6C6B9600BC7E21 /* CarloudyCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarloudyCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FB7AA21E6C6B9600BC7E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20FB7AA41E6C6B9600BC7E21 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		20FB7AA71E6C6B9600BC7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FB7AA91E6C6B9600BC7E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FB7AAC1E6C6B9600BC7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FB7AAE1E6C6B9600BC7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FB7AB31E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarloudyCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FB7AB71E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarloudyCodeChallengeTests.swift; sourceTree = "<group>"; };
+		20FB7AB91E6C6B9600BC7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FB7AC21E6C7C9500BC7E21 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		20FB7AC31E6C7C9500BC7E21 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		43695938F1424932DE631504 /* Pods-CarloudyCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarloudyCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarloudyCodeChallenge/Pods-CarloudyCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		46F75128F915AB02B41BECE0 /* Pods_CarloudyCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarloudyCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5127BAFD188E5474EF8B4585 /* Pods-CarloudyCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarloudyCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarloudyCodeChallenge/Pods-CarloudyCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		68544B67FD429FB7BEC05B40 /* Pods-CarloudyCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarloudyCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarloudyCodeChallengeTests/Pods-CarloudyCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		82FF3B443AA0716D1E8855D6 /* Pods-CarloudyCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarloudyCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarloudyCodeChallengeTests/Pods-CarloudyCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		856D2F8C809E405E3E2237B1 /* Pods_CarloudyCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarloudyCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FB7A9C1E6C6B9600BC7E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D50A7940F4875CEEF0F4EB7 /* Pods_CarloudyCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB7AB01E6C6B9600BC7E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410DE4466548D6EE0DC708B6 /* Pods_CarloudyCodeChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FB7A961E6C6B9600BC7E21 = {
+			isa = PBXGroup;
+			children = (
+				20FB7AA11E6C6B9600BC7E21 /* CarloudyCodeChallenge */,
+				20FB7AB61E6C6B9600BC7E21 /* CarloudyCodeChallengeTests */,
+				20FB7AA01E6C6B9600BC7E21 /* Products */,
+				4D5F78D2ABDD5110B1CDD4C3 /* Pods */,
+				D7DED478A827C668439FA3D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20FB7AA01E6C6B9600BC7E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FB7A9F1E6C6B9600BC7E21 /* CarloudyCodeChallenge.app */,
+				20FB7AB31E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FB7AA11E6C6B9600BC7E21 /* CarloudyCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				20FB7AA21E6C6B9600BC7E21 /* AppDelegate.swift */,
+				20FB7AA41E6C6B9600BC7E21 /* MapViewController.swift */,
+				20FB7AA61E6C6B9600BC7E21 /* Main.storyboard */,
+				20FB7AC61E6C7C9A00BC7E21 /* NetworkService */,
+				20FB7AA91E6C6B9600BC7E21 /* Assets.xcassets */,
+				20FB7AAE1E6C6B9600BC7E21 /* Info.plist */,
+			);
+			path = CarloudyCodeChallenge;
+			sourceTree = "<group>";
+		};
+		20FB7AB61E6C6B9600BC7E21 /* CarloudyCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				20FB7AB71E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.swift */,
+				20FB7AB91E6C6B9600BC7E21 /* Info.plist */,
+			);
+			path = CarloudyCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		20FB7AC61E6C7C9A00BC7E21 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				20FB7AC21E6C7C9500BC7E21 /* NetworkService.swift */,
+				20FB7AC31E6C7C9500BC7E21 /* NetworkServiceProtocol.swift */,
+				20FB7AAB1E6C6B9600BC7E21 /* LaunchScreen.storyboard */,
+			);
+			name = NetworkService;
+			sourceTree = "<group>";
+		};
+		4D5F78D2ABDD5110B1CDD4C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43695938F1424932DE631504 /* Pods-CarloudyCodeChallenge.debug.xcconfig */,
+				5127BAFD188E5474EF8B4585 /* Pods-CarloudyCodeChallenge.release.xcconfig */,
+				82FF3B443AA0716D1E8855D6 /* Pods-CarloudyCodeChallengeTests.debug.xcconfig */,
+				68544B67FD429FB7BEC05B40 /* Pods-CarloudyCodeChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7DED478A827C668439FA3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F75128F915AB02B41BECE0 /* Pods_CarloudyCodeChallenge.framework */,
+				856D2F8C809E405E3E2237B1 /* Pods_CarloudyCodeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FB7A9E1E6C6B9600BC7E21 /* CarloudyCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FB7ABC1E6C6B9600BC7E21 /* Build configuration list for PBXNativeTarget "CarloudyCodeChallenge" */;
+			buildPhases = (
+				8C09238BC45D4D119E7AB94A /* [CP] Check Pods Manifest.lock */,
+				20FB7A9B1E6C6B9600BC7E21 /* Sources */,
+				20FB7A9C1E6C6B9600BC7E21 /* Frameworks */,
+				20FB7A9D1E6C6B9600BC7E21 /* Resources */,
+				DA6171F7D894D9C00D27EE51 /* [CP] Embed Pods Frameworks */,
+				50D0FFD13C060669A26E3D3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarloudyCodeChallenge;
+			productName = CarloudyCodeChallenge;
+			productReference = 20FB7A9F1E6C6B9600BC7E21 /* CarloudyCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20FB7AB21E6C6B9600BC7E21 /* CarloudyCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FB7ABF1E6C6B9600BC7E21 /* Build configuration list for PBXNativeTarget "CarloudyCodeChallengeTests" */;
+			buildPhases = (
+				E1D5698B2CC28A23EA7F48F1 /* [CP] Check Pods Manifest.lock */,
+				20FB7AAF1E6C6B9600BC7E21 /* Sources */,
+				20FB7AB01E6C6B9600BC7E21 /* Frameworks */,
+				20FB7AB11E6C6B9600BC7E21 /* Resources */,
+				12439A35E80C9337BEEC9E0D /* [CP] Embed Pods Frameworks */,
+				95793B7B3A34190164F7396D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FB7AB51E6C6B9600BC7E21 /* PBXTargetDependency */,
+			);
+			name = CarloudyCodeChallengeTests;
+			productName = CarloudyCodeChallengeTests;
+			productReference = 20FB7AB31E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FB7A971E6C6B9600BC7E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Molly Tian";
+				TargetAttributes = {
+					20FB7A9E1E6C6B9600BC7E21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UUSC89UF5A;
+						ProvisioningStyle = Automatic;
+					};
+					20FB7AB21E6C6B9600BC7E21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UUSC89UF5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20FB7A9E1E6C6B9600BC7E21;
+					};
+				};
+			};
+			buildConfigurationList = 20FB7A9A1E6C6B9600BC7E21 /* Build configuration list for PBXProject "CarloudyCodeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FB7A961E6C6B9600BC7E21;
+			productRefGroup = 20FB7AA01E6C6B9600BC7E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FB7A9E1E6C6B9600BC7E21 /* CarloudyCodeChallenge */,
+				20FB7AB21E6C6B9600BC7E21 /* CarloudyCodeChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FB7A9D1E6C6B9600BC7E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB7AAD1E6C6B9600BC7E21 /* LaunchScreen.storyboard in Resources */,
+				20FB7AAA1E6C6B9600BC7E21 /* Assets.xcassets in Resources */,
+				20FB7AA81E6C6B9600BC7E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB7AB11E6C6B9600BC7E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12439A35E80C9337BEEC9E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarloudyCodeChallengeTests/Pods-CarloudyCodeChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D0FFD13C060669A26E3D3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarloudyCodeChallenge/Pods-CarloudyCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C09238BC45D4D119E7AB94A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95793B7B3A34190164F7396D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarloudyCodeChallengeTests/Pods-CarloudyCodeChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6171F7D894D9C00D27EE51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarloudyCodeChallenge/Pods-CarloudyCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D5698B2CC28A23EA7F48F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FB7A9B1E6C6B9600BC7E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB7AC51E6C7C9500BC7E21 /* NetworkServiceProtocol.swift in Sources */,
+				20FB7AA51E6C6B9600BC7E21 /* MapViewController.swift in Sources */,
+				20FB7AC41E6C7C9500BC7E21 /* NetworkService.swift in Sources */,
+				20FB7AA31E6C6B9600BC7E21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB7AAF1E6C6B9600BC7E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB7AB81E6C6B9600BC7E21 /* CarloudyCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20FB7AB51E6C6B9600BC7E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FB7A9E1E6C6B9600BC7E21 /* CarloudyCodeChallenge */;
+			targetProxy = 20FB7AB41E6C6B9600BC7E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20FB7AA61E6C6B9600BC7E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FB7AA71E6C6B9600BC7E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20FB7AAB1E6C6B9600BC7E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FB7AAC1E6C6B9600BC7E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FB7ABA1E6C6B9600BC7E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FB7ABB1E6C6B9600BC7E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FB7ABD1E6C6B9600BC7E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43695938F1424932DE631504 /* Pods-CarloudyCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = CarloudyCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.Carloudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20FB7ABE1E6C6B9600BC7E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5127BAFD188E5474EF8B4585 /* Pods-CarloudyCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = CarloudyCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.Carloudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		20FB7AC01E6C6B9600BC7E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FF3B443AA0716D1E8855D6 /* Pods-CarloudyCodeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = CarloudyCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.CarloudyCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarloudyCodeChallenge.app/CarloudyCodeChallenge";
+			};
+			name = Debug;
+		};
+		20FB7AC11E6C6B9600BC7E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68544B67FD429FB7BEC05B40 /* Pods-CarloudyCodeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = CarloudyCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.CarloudyCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarloudyCodeChallenge.app/CarloudyCodeChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FB7A9A1E6C6B9600BC7E21 /* Build configuration list for PBXProject "CarloudyCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB7ABA1E6C6B9600BC7E21 /* Debug */,
+				20FB7ABB1E6C6B9600BC7E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FB7ABC1E6C6B9600BC7E21 /* Build configuration list for PBXNativeTarget "CarloudyCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB7ABD1E6C6B9600BC7E21 /* Debug */,
+				20FB7ABE1E6C6B9600BC7E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FB7ABF1E6C6B9600BC7E21 /* Build configuration list for PBXNativeTarget "CarloudyCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB7AC01E6C6B9600BC7E21 /* Debug */,
+				20FB7AC11E6C6B9600BC7E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FB7A971E6C6B9600BC7E21 /* Project object */;
+}

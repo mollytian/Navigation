@@ -1,0 +1,6 @@
+framework module Pods_CarloudyCodeChallengeTests {
+  umbrella header "Pods-CarloudyCodeChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
